@@ -1,0 +1,180 @@
+body{
+    background-color: darkgray;
+    
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 250px;
+    height: 80px;
+    border: 2px solid green;
+    text-shadow: 0.5px 0.5px 1px darkblue ;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 0px purple;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid red;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box1{
+    width: 150px;
+    height: 130px;
+    margin-right: 100px;
+}
+
+.box2{
+    width: 150px;
+    height: 130px;
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box3{
+    width: 150px;
+    height: 130px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.box4{
+    width: 150px;
+    height: 130px;
+    margin-right: 20px;
+}
+
+.img1{
+    height: 80px;
+    width: 140px;
+    border-radius: 5px;
+    box-shadow: -2px 2px 0px purple;
+    
+}
+
+.inp{
+    width: 50px;
+    height: 5px;
+}
+
+.txt{
+    font-size: 10px;
+}
+
+.btn{
+    height: 10px;
+    width: 30px;
+    background-color: red;
+    font-size: 5px;
+    display: flex;
+    position: relative;
+    left: 60px;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.container3{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.bigbox{
+    display: flex;
+    width: 400px;
+    border: 5px solid purple ;
+    background-color: green;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.text{
+    width: 400px;
+    text-align: center;
+}
+
+.child1{
+    background-color: wheat;
+    height: 130px;
+    width: 190px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 8px;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+
+.Title{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.bigbox1{
+    margin-left: 5px;
+    text-align: center;
+}
+
+.bigbox2{
+    margin-right: 5px;
+    text-align: center;
+}
+
+.p1{
+    line-height: 15px;
+}
+
+.bigbox3{
+    width: 390px;
+    margin: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.container4{
+    display: flex;
+    bottom: 0px;
+    position: fixed;
+    left: 190px;
+    justify-content: space-between;
+}
+
+.float{
+    width: 200px;
+    border: 3.5px red solid;
+    background-color: yellow;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 3px darkblue;
+    justify-content: space-around;
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+}
+
+.f1{
+    margin: 5px;
+    font-style: italic;
+}
+
+
